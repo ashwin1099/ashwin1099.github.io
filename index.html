@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashmin Saurav Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Animated Background -->
+    <div class="bg-animation">
+        <div class="bg-orb"></div>
+        <div class="bg-orb"></div>
+        <div class="bg-orb"></div>
+    </div>
+
+    <!-- Navigation -->
+<nav>
+  <div class="nav-container">
+    <div class="logo">&lt;/dev&gt;</div>
+    <ul class="nav-links">
+      <li><a href="#home" class="active">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="nav-toggle">
+      <i class="fas fa-bars"></i>
+    </button>
+  </div>
+</nav>
+
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="floating-card card-1 fade-in">
+            <div class="card-icon">
+                <i class="fas fa-code"></i>
+            </div>
+            <h4>Clean Code</h4>
+            <p>Writing maintainable and scalable solutions</p>
+        </div>
+        
+        <div class="floating-card card-2 fade-in">
+            <div class="card-icon">
+                <i class="fas fa-rocket"></i>
+            </div>
+            <h4>Performance</h4>
+            <p>Optimized for speed and efficiency</p>
+        </div>
+        
+        <div class="floating-card card-3 fade-in">
+            <div class="card-icon">
+                <i class="fas fa-palette"></i>
+            </div>
+            <h4>Design</h4>
+            <p>Beautiful and intuitive user experiences</p>
+        </div>
+
+        <div class="hero-content">
+            <div class="hero-badge">
+                <span class="status-dot"></span>
+                FullStack Developer
+            </div>
+            <h1>
+                I'm <span class="gradient-text" id="typewriter"></span>
+                <span class="typing-cursor"></span>
+            </h1>
+            <p>
+                A proactive full-stack developer, crafting dynamic web experiences with clean, efficient code and a passion for React, Next.js, and Node.js.
+            </p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">
+                    <i class="fas fa-rocket"></i>
+                    View My Work
+                </a>
+                <a href="#contact" class="btn btn-secondary">
+                    <i class="fas fa-paper-plane"></i>
+                    Let's Talk
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="section-header fade-in">
+                <div class="section-badge">About Me</div>
+                <h2 class="section-title">Crafting Digital Excellence</h2>
+                <p class="section-description">
+                    Passionate about creating meaningful digital experiences that make a difference
+                </p>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-content slide-in-left">
+                    <h3>Building Tomorrow's Web Today</h3>
+                    <p>
+                        I'm Ashwin Saurav, an enthusiastic full-stack developer passionate about building dynamic web experiences. From frontend to backend, I enjoy tackling challenges with clean, efficient code and learning new technologies along the way.</p> 
+
+                       <p> When I'm not coding, I'm exploring creative ideas, experimenting with new tools, and staying curious. I believe in balancing work and life while embracing every opportunity to grow.</p> 
+
+<p>I wake up each day excited to make an impact!
+                    </p>
+                    
+
+                    <div class="stats-grid">
+                        <div class="stat-item fade-in">
+                            <div class="stat-number">10+</div>
+                            <div class="stat-label">Projects Completed</div>
+                        </div>
+                        <div class="stat-item fade-in">
+                            <div class="stat-number">1</div>
+                            <div class="stat-label">Year Experience</div>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class="about-image slide-in-right">
+                    <div class="image-card">
+                        <img src="/hero.jpg" alt="Profile">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <div class="section-header fade-in">
+                <div class="section-badge">Skills</div>
+                <h2 class="section-title">Technical Expertise</h2>
+                <p class="section-description">
+                    Technologies and tools I use to bring ideas to life
+                </p>
+            </div>
+
+            <div class="skills-grid">
+                <div class="skill-category fade-in">
+                    <div class="skill-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Frontend Development</h3>
+                    <div class="skill-list">
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">Next.js</span>
+                        <span class="skill-tag">TypeScript</span>
+                        <span class="skill-tag">Vue.js</span>
+                        <span class="skill-tag">Tailwind CSS</span>
+                        <span class="skill-tag">Sass</span>
+                    </div>
+                </div>
+
+                <div class="skill-category fade-in">
+                    <div class="skill-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h3>Backend Development</h3>
+                    <div class="skill-list">
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Express</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Django</span>
+                        <span class="skill-tag">PostgreSQL</span>
+                        <span class="skill-tag">MongoDB</span>
+                    </div>
+                </div>
+
+                <div class="skill-category fade-in">
+                    <div class="skill-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>UI/UX Design</h3>
+                    <div class="skill-list">
+                        <span class="skill-tag">Figma</span>
+                        <span class="skill-tag">Adobe XD</span>
+                        <span class="skill-tag">Sketch</span>
+                        <span class="skill-tag">Prototyping</span>
+                        <span class="skill-tag">User Research</span>
+                        <span class="skill-tag">Wireframing</span>
+                    </div>
+                </div>
+
+                <div class="skill-category fade-in">
+                    <div class="skill-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Tools & Others</h3>
+                    <div class="skill-list">
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">AWS</span>
+                        <span class="skill-tag">Vercel</span>
+                        <span class="skill-tag">Firebase</span>
+                        <span class="skill-tag">Webpack</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <div class="section-header fade-in">
+                <div class="section-badge">Portfolio</div>
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-description">
+                    A showcase of my recent work and personal projects
+                </p>
+            </div>
+
+            <div class="projects-grid">
+                <div class="project-card fade-in">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/ashwin1099/aptiquick" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="https://github.com/ashwin1099/aptiquick" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Aptitude Practice & Mock Test App</h3>
+<p>A mobile app for practicing aptitude questions and taking mock tests with real-time performance tracking.</p>
+<div class="project-tags">
+    <span class="project-tag">Flutter</span>
+    <span class="project-tag">Dart</span>
+    <span class="project-tag">Node.js</span>
+    <span class="project-tag">Firebase</span>
+</div>
+
+                    </div>
+                </div>
+
+                <div class="project-card fade-in">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/ashwin1099/ai-todolist" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="https://github.com/ashwin1099/ai-todolist" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>AI-Enhanced Task Manager</h3>
+<p>A clean full-stack app combining a To-do Manager, Feedback Tracker, and an AI Chat Assistant powered by Groq's LLM.</p>
+<div class="project-tags">
+    <span class="project-tag">Next.js</span>
+    <span class="project-tag">Express.js</span>
+    <span class="project-tag">Node.js</span>
+    <span class="project-tag">Groq API</span>
+    <span class="project-tag">Axios</span>
+</div>
+
+                    </div>
+                </div>
+
+                <div class="project-card fade-in">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/ashwin1099/vG-Bot" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="https://github.com/ashwin1099/vG-Bot" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Discord Automation Bot</h3>
+<p>A scalable automation bot for SAMP and Minecraft servers with real-time monitoring, AI-powered queries, and multi-server support.</p>
+<div class="project-tags">
+    <span class="project-tag">Node.js</span>
+    <span class="project-tag">Discord.js</span>
+    <span class="project-tag">MongoDB</span>
+    <span class="project-tag">NLP</span>
+    <span class="project-tag">Async Architecture</span>
+</div>
+
+                    </div>
+                </div>
+
+                <div class="project-card fade-in">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://ashwin1099.github.io/Weather-App/" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="https://github.com/ashwin1099/Weather-App" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Weather App</h3>
+                        <p>Beautiful weather application with location-based forecasts and interactive maps.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">React Native</span>
+                            <span class="project-tag">Weather API</span>
+                            <span class="project-tag">Maps</span>
+                            <span class="project-tag">Geolocation</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="section-header fade-in">
+                <div class="section-badge">Contact</div>
+                <h2 class="section-title">Let's Work Together</h2>
+                <p class="section-description">
+                    Have a project in mind? Let's discuss how we can bring your ideas to life
+                </p>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-info slide-in-left">
+                    <h3 style="margin-bottom: 30px; font-size: 1.8rem;">Get In Touch</h3>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>ashminsaurav9@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Phone</h4>
+                            <p>+91 7013899892</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Location</h4>
+                            <p>Hyderabad, Telengana</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form slide-in-right">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" class="form-control" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">
+                            <i class="fas fa-paper-plane"></i>
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="https://github.com/ashwin1099/" class="social-link">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/ashmin-saurav-behera/" class="social-link">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="#" class="social-link">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#" class="social-link">
+                    <i class="fab fa-dribbble"></i>
+                </a>
+                <a href="https://www.instagram.com/ashwin_jr_10/" class="social-link">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+            <p class="footer-text">
+                © 2024 Ashwin Saurav. Crafted with ❤️ and lots of ☕
+            </p>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
